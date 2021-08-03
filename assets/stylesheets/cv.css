@@ -68,10 +68,10 @@ body {
 }
 
 .primary-header div p {
-	padding-top: 16px;
-	height: 80px;
-	line-height: 20px;
-	font-size: 18px;
+	/*padding-top: 5px;*/
+	height: 90px;
+	line-height: 18px;
+	font-size: 15px;
 	text-align: right;
 	font-family: lucida-sans;
 }
@@ -88,11 +88,11 @@ body {
 
 h3 {
 	/*border: 2px solid green;*/
-	line-height: 40px;
+	line-height: 35px;
 	vertical-align: top;
 	margin-top: 14px;
 	font-size: 21px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	padding-left: 15px;
 	font-weight: bold;
 }
@@ -100,7 +100,10 @@ h3 {
 .bullet {
 	padding-left: 15px;
 	margin-bottom: 5px;
-	padding-top: 8px;
+	padding-top: 10px;
+}
+#act {
+	margin-top: 40px;
 }
 .bullet  img {
 	border-radius: 50%;
@@ -124,10 +127,16 @@ h3 {
 	padding-left: 15px;
 	padding-top: 8px;
 }
+.certifications h3 {
+	padding-bottom: 0px;
+}
 
-.achievements li {
+.certifications li {
 	display: flex;
 	justify-content: space-between;
+	list-style-type: circle;
+	padding-left: 15px;
+	padding-top: 8px;
 }
 
 .education-details {
@@ -156,6 +165,7 @@ h3 {
 
 #first li {
 	margin-left: 15px;
+	line-height: 20px;
 }
 
 .even {
@@ -170,6 +180,7 @@ h3 {
 .projects ul {
 	list-style-type: circle;
 	padding-left: 15px;
+	padding-bottom: 15px;
 }
 
 .projects li {
@@ -181,6 +192,8 @@ h3 {
 }
 
 h4 {
+	text-align: right;
+	line-height: 18px;
 	font-weight: bolder;
 }
 
@@ -188,6 +201,10 @@ h5 {
 	font-weight: bolder;
 	display: list-item;
 	list-style-type: square;
+}
+
+.projects h5 {
+	line-height: 20px;
 }
 
 #interest h5 {
@@ -208,6 +225,6 @@ h6 {
 
 #referee a {
 	/*border: 2px solid green;*/
-	line-height: 45px;
-	margin-top: 20px;
+	line-height: 40px;
+	margin-top: 15px;
 }
